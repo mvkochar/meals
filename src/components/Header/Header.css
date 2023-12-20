@@ -1,0 +1,42 @@
+.header {
+    padding-top: 30px;
+    padding-left: 290px;
+}
+
+.header-logo, .header-logo img {
+    width: 295px;
+    height: 68px;
+}
+
+.header-logo {
+    display: block;
+}
+
+.header-nav {
+    list-style-type: none;
+    gap: 40px;
+}
+
+.header-nav-item a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.header-nav-item a:hover {
+    color: #D2691E;
+}
+
+.header-btn {
+    display: block;
+    width: 200px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #05581C;
+    border: 1px solid #05581C;
+    border-radius: 80px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}

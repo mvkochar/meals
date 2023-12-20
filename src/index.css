@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 250;
+  src: local('Stolzl Thin'), url('fonts/stolzl_thin.otf') format('opentype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Stolzl Regular'), url('fonts/stolzl_regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 350;
+  src: local('Stolzl Book'), url('fonts/stolzl_book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Stolzl Medium'), url('fonts/stolzl_medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Stolzl Bold'), url('fonts/stolzl_bold.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  font-family: 'Stolzl', serif;
+  
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-b {
+  display: block;
 }

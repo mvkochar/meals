@@ -1,0 +1,167 @@
+.home-main {
+    margin-top: 33px;
+    padding-top: 298px;
+    padding-bottom: 177px;
+    padding-left: 290px;
+    background: url("/public/images/home-main-bg.png") no-repeat;
+}
+
+.home-main-title {
+    width: 699px;
+    font-weight: 400;
+    font-size: 58px;
+    color: #000000;
+}
+
+.home-main-title span {
+    color: #05581C;
+}
+
+.home-main-desc {
+    width: 508px;
+    margin-top: 58px;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #366126;
+}
+
+.home-main-actions {
+    margin-top: 43px;
+    gap: 30px;
+}
+
+.home-main-link {
+    display: block;
+    width: 262px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: transparent;
+    border: 2px solid #05581C;
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #05581C;
+}
+
+.home-main-btn {
+    display: block;
+    width: 262px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #05581C;
+    border: 1px solid #05581C;
+    border-radius: 80px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.home-features {
+    margin-top: 40px;
+    margin-left: 290px;
+    gap: 25px;
+}
+
+.home-features-item {
+    width: 430px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    gap: 25px;    
+}
+
+.features-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #363333;
+}
+
+.features-item-desc {
+    width: 277px;
+    margin-top: 20px;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #666666;
+}
+
+.home-about {
+    margin-top: 44px;
+    margin-left: 290px;
+    gap: 64px;
+} 
+
+.home-about-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.home-about-title::before {
+    content: '';
+    display: block;
+    width: 115px;
+    height: 234px;
+    margin-left: -46px;
+    margin-bottom: -215px;
+    background: url("/public/images/about-decor.png") no-repeat;
+    background-size: contain;
+} 
+
+.home-about-desc {
+    width: 619px;
+    margin-top: 30px;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #626262;
+}
+
+.home-about-link {
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: transparent;
+    border: 1.5px solid #05581C;
+    border-radius: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #05581C;
+}
+
+.home-about-fm {
+    margin-top: 52px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 25px;
+}
+
+.home-about-fm .check-bl {
+    gap: 12px;
+    flex-basis: 39%;
+}
+
+.home-about-fm .check-bl input {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.home-about-fm .check-bl label {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+}
