@@ -166,6 +166,27 @@ const Home = () => {
 
         </div>
       </div>
+      <div className="home-delivery">
+        <h3 className="home-delivery-title">Schedule your first <span>weekly</span> delivery</h3>
+        <a href="" className="home-delivery-started">Get started</a>
+      </div>
+      <div className="home-serve d-f align-center">
+        <div className="home-serve-info">
+            <h4 className="home-serve-above">Who We Serve</h4>
+            <h3 className="home-serve-title">Who We Serve</h3>
+            <p className="home-serve-desc">
+              We serve those in need for long-term meal assistance or anyone who might be in need 
+              of a short-term plan while recovering from an injury or illness, or who would 
+              simply enjoy healthy meals that require minimal preparation time.
+            </p>
+            <div className="home-serve-about d-f align-senter">
+              <div className="home-serve-schedule">Monday - Friday 9:00 AM - 5:00 PM</div>
+              <div className="home-serve-phone">(786) 600-59-09</div>
+            </div>
+            <a href="" className="home-serve-link">Read more</a>
+        </div>
+        <div><img src="images/serve1.png" alt="serve" /></div>
+      </div>
     </main>
   )
 }
