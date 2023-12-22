@@ -1,0 +1,97 @@
+.footer {
+    background: url('/public/images/footer-decor.png') no-repeat right;
+    background-position-y: 69px;
+}
+
+.footer-bar {
+    padding-top: 53px;
+    padding-bottom: 83px;
+    padding-left: 290px;
+    padding-right: 490px;
+    background-color: rgba(224, 240, 218, 0.3);
+}
+
+.footer-logo .footer-logo img {
+    width: 295px;
+    height: 64px;
+}
+
+.footer-desc {
+    width: 311px;
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #4D6C40;
+}
+
+.footer-desc a {
+    font-weight: 600;
+    color: #4D6C40;
+}
+
+.footer-bl-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+}
+
+.footer-contacts {
+    margin-top: 23px;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-contacts-address {
+    width: 255px;
+    padding-left: 32px;
+    background: url("/public/images/location.svg") no-repeat;
+}
+
+.footer-contacts-phone {
+    padding-left: 32px;
+    background: url("/public/images/phone-min.svg") no-repeat;
+}
+
+.footer-contacts-email {
+    padding-left: 32px;
+    background: url("/public/images/mail.svg") no-repeat;
+}
+
+.footer-bl-list {
+    list-style-type: none;
+    margin-top: 23px;
+}
+
+.footer-bl-list li {
+    line-height: 2;
+}
+
+.footer-bl-list li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer-bl-list li a:hover {
+    color: #0000FF;
+}
+
+.footer-rights {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 300px;
+    background-color: #195A00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: 16px;
+    color: #FFFFFF;
+}
+
+.footer-rights a {
+    font-weight: 600;
+    color: #FFFFFF;
+}
