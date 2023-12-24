@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
@@ -58,10 +59,10 @@ const Home = () => {
             and gluten-free menus. We also provide emergency packs for emergency situations that contain shelf stable
             items only and do not require refrigeration or heating.
           </p>
-          <a href="" className="home-about-link">Read more</a>
+          <Link to="/about" className="home-about-link">Read more</Link>
           <form action="" className="home-about-fm d-f">
             <div className="check-bl d-f align-center">
-              <input type="checkbox" name="gluften" id="gluften" checked />
+              <input type="checkbox" name="gluften" id="gluften" />
               <label htmlFor="gluften">Gluten free options</label>
             </div>
             <div className="check-bl d-f align-center">
