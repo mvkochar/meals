@@ -27,7 +27,7 @@ const Footer = () => {
           <h4 className="footer-bl-title">Links</h4>
           <ul className='footer-bl-list'>
             <li><Link to="about">About Us</Link></li>
-            <li><a href="">How It Works</a></li>
+            <li><Link to="works">How It Works</Link></li>
             <li><a href="">Our menu</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>

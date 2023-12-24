@@ -12,7 +12,7 @@ const Home = () => {
             We provide healthy, balanced meals delivered to your doorstep!
           </p>
           <div className="home-main-actions d-f">
-            <a href="" className="home-main-link">How It Works</a>
+            <Link to="/works" className="home-main-link">How It Works</Link>
             <button className="home-main-btn">Get started</button>
           </div>
         </div>

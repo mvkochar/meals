@@ -1,0 +1,127 @@
+.works-main {
+    margin-top: 31px;
+    padding-top: 130px;
+    border-top: 1px solid #D9E5D8;
+    text-align: center;
+}
+
+.works-main-desc {
+    max-width: 1117px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #757575;
+}
+
+.works-main-title {
+    max-width: 1022px;
+    margin: 35px auto;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.works-main-fm {
+    margin-top: 71px;
+}
+
+.works-main-fm .check-bl {
+    gap: 17px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.works-main-fm .check-bl__last {
+    margin-bottom: 0;
+}
+
+.works-main-fm .check-bl input {
+    display: block;
+    width: 32px;
+    height: 32px;
+    appearance: none;
+    background-color: #5F9EA0;
+    border-radius: 8px;
+}
+
+.works-main-fm .check-bl input:checked {
+    background-color: #05581C;
+    background-image: url("/public/images/tick.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.works-main-fm .check-bl label {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.works-main-fm .questions-note {
+    max-width: 1034px;
+    margin: 63px auto;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.works-main-fm .questions-note span {
+    color: #05581C;
+}
+
+.works-main-info {
+    width: fit-content;
+    margin: 60px auto;
+    margin-bottom: 0;
+    gap: 40px;
+}
+
+.works-main-info .info-item {
+    width: 520px;
+    padding-top: 32px;
+    padding-bottom: 54px;
+    padding-left: 34px;
+    padding-right: 22px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+    gap: 20px;
+}
+
+.works-main-info .info-item-title {
+    max-width: 281px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #363333;
+}
+
+.works-main-info .info-item-desc {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #8C8C8C;
+}
+
+.works-main-info .info-item:nth-child(1) .info-item-desc {
+    max-width: 344px;
+}
+
+.works-main-info .info-item:nth-child(2) .info-item-desc {
+    max-width: 372px;
+}
+
+.works-main-info .info-item-desc span {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #05581C;
+}

@@ -9,7 +9,7 @@ const Header = () => {
       <nav>
         <ul className="header-nav d-f">
           <li className="header-nav-item"><Link to="about">About Us</Link></li>
-          <li className="header-nav-item "><a href="">How It Works</a></li>
+          <li className="header-nav-item "><Link to="works">How It Works</Link></li>
           <li className="header-nav-item"><a href="">Menu</a></li>
           <li className="header-nav-item"><a href="">Contact</a></li>
         </ul>

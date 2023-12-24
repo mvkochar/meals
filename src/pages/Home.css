@@ -165,7 +165,6 @@
 }
 
 .home-about-fm .check-bl input:checked {
-   
     background-color: #05581C;
     background-image: url("/public/images/tick.svg");
     background-repeat: no-repeat;
