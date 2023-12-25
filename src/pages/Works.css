@@ -39,7 +39,8 @@
     margin-bottom: 0;
 }
 
-.works-main-fm .check-bl input {
+.works-main-fm .check-bl input,
+.works-eligibility-fm .check-bl input {
     display: block;
     width: 32px;
     height: 32px;
@@ -48,7 +49,8 @@
     border-radius: 8px;
 }
 
-.works-main-fm .check-bl input:checked {
+.works-main-fm .check-bl input:checked,
+.works-eligibility-fm .check-bl input:checked {
     background-color: #05581C;
     background-image: url("/public/images/tick.svg");
     background-repeat: no-repeat;
@@ -124,4 +126,168 @@
     font-weight: 700;
     text-decoration: underline;
     color: #05581C;
+}
+
+.works-serve {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.works-serve-content {
+    height: 535px;
+    padding-top: 110px;
+    padding-left: 288px;
+    background-color: rgba(224, 240, 218, 0.3);
+}
+
+.works-serve-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.worsk-serve-subtitle {
+    max-width: 803px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #586F5E;
+}
+
+.works-serve-desc {
+    max-width: 803px;
+    margin-top: 40px;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #565656;
+}
+
+.works-serve-image {
+    width: 494px;
+    height: 599px;
+    position: absolute;
+    top: -68px;
+    right: 241px;
+}
+
+.works-eligibility {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.works-eligibility-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    color: #333333;
+}
+
+.works-eligibility-subtitle {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #757575;
+}
+
+.works-eligibility-fm {
+    max-width: 1055px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    column-gap: 84px;
+    row-gap: 35px;
+}
+
+.works-eligibility-fm .check-bl {
+    gap: 9px;
+}
+
+.works-eligibility-fm .check-bl label {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.works-eligibility-desc {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #565656;
+}
+
+.works-eligibility-desc span {
+    font-weight: 700;
+}
+
+.eligibility-desc__last {
+    margin-bottom: 0;
+}
+
+.eligibility-title_second {
+    margin-top: 120px;
+}
+
+.eligibility-subtitle__second {
+    max-width: 1176px;
+    margin: 40px auto;
+    margin-bottom: 0;
+}
+
+.works-eligibility-requirements {
+    margin-top: 60px;
+}
+
+.eligibility-requirements-title {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.eligibility-requirements-list {
+    max-width: fit-content;
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+
+.eligibility-requirements-list li {
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 1.8; 
+    color: #565656;
+}
+
+.eligibility-requirements-box {
+    width: fit-content;
+    margin: 23px auto;
+    margin-bottom: 0;
+    gap: 60px
+}
+
+.eligibility-requirements-box .eligibility-requirements-list {
+    margin: 0;
+}
+
+.works-eligibility-note {
+    max-width: 948px;
+    margin: 54px auto;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #565656;
 }
