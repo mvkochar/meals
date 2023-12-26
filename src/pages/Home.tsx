@@ -159,7 +159,7 @@ const Home = () => {
                 <li className="meals-list-item">Pack of Fruits Cups Complimentary Dessert</li>   
               </ul>
               <div className="meals-actions d-f">
-                <a href="" className="meals-actions-download">Download menu</a>
+                <Link to="/menu" className="meals-actions-download">Download menu</Link>
                 <button className='meals-actions-started'>Get started</button>
               </div> 
             </div>
@@ -184,7 +184,7 @@ const Home = () => {
               <div className="home-serve-schedule">Monday - Friday 9:00 AM - 5:00 PM</div>
               <div className="home-serve-phone">(786) 600-59-09</div>
             </div>
-            <a href="" className="home-serve-link">Read more</a>
+            <Link to="/works" className="home-serve-link">Read more</Link>
         </div>
         <div><img src="images/serve1.png" alt="serve" /></div>
       </div>

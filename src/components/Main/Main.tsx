@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../../pages/Home'
 import About from '../../pages/About'
 import Works from '../../pages/Works'
+import Menu from '../../pages/Menu'
 
 const Main = () => {
     return (
@@ -18,6 +19,10 @@ const Main = () => {
         <Route
           path='works'
           element={<Works/>}
+        />
+        <Route
+          path='menu'
+          element={<Menu/>}
         />
       </Routes>
     )
