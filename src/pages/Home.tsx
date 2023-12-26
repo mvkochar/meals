@@ -169,7 +169,7 @@ const Home = () => {
       </div>
       <div className="home-delivery">
         <h3 className="home-delivery-title">Schedule your first <span>weekly</span> delivery</h3>
-        <a href="" className="home-delivery-started">Get started</a>
+        <Link to="/contacts" className="home-delivery-started">Get started</Link>
       </div>
       <div className="home-serve d-f align-center">
         <div className="home-serve-info">

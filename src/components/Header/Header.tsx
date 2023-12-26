@@ -11,7 +11,7 @@ const Header = () => {
           <li className="header-nav-item"><Link to="about">About Us</Link></li>
           <li className="header-nav-item "><Link to="works">How It Works</Link></li>
           <li className="header-nav-item"><Link to="menu">Menu</Link></li>
-          <li className="header-nav-item"><a href="">Contact</a></li>
+          <li className="header-nav-item"><Link to="contacts">Contact</Link></li>
         </ul>
       </nav>
       <button className='header-btn'>Get Started</button>

@@ -1,0 +1,73 @@
+.contacts-info {
+    margin-top: 31px;
+    padding-top: 100px;
+    border-top: 1px solid #D9E5D8;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+.contacts-info-box {
+    width: fit-content;
+    margin: 60px auto;
+    margin-bottom: 0;
+    gap: 125.5px;
+    align-items:baseline;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+
+.contacts-info-location {
+    width: 334px;
+    line-height: 1.4;
+    padding-left: 32px;
+    background: url('/public/images/location.svg') no-repeat;
+    background-position-y: 6px;
+}
+
+.contacts-info-phone {
+    width: 236px;
+    margin: 0 auto;
+    padding-left: 34px;
+    background: url('/public/images/phone-min.svg') no-repeat;
+    background-position-y: 3px;
+}
+
+
+.contacts-info-email {
+    width: 393px;
+    margin-top: 21px;
+    padding-left: 34px;
+    background: url('/public/images/mail.svg') no-repeat;
+    background-position-y: 6px;
+}
+
+.contacts-info-schedule {
+    width: 280px;
+    padding-left: 44px;
+    background: url('/public/images/time-min.svg') no-repeat;
+    background-position-y: 6px;
+    background-size: 23px;
+}
+
+.contacts-started {
+    margin-top: 120px;
+    margin-left: 290px;
+    margin-right: 210px;
+}
+
+.contacts-started-desc {
+    max-width: 669px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #757575;
+}
